@@ -1,0 +1,152 @@
+{
+	"pages": [{
+		"path": "pages/mall/mall",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"backgroundColorTop": "#5677FC"
+		}
+	}, {
+		"path": "pages/cart/cart",
+		"style": {
+			"navigationBarTitleText": "购物车",
+			"backgroundColorTop": "#5677FC"
+		}
+	},
+	{
+		"path": "pages/product/product-cat",
+		"style": {
+			"navigationBarTitleText": "商品分类",
+			"navigationBarBackgroundColor": "#5677FC"
+		}
+	},
+	{
+		"path": "pages/product/list",
+		"style": {
+			"navigationBarTitleText": "商品列表",
+			"navigationBarBackgroundColor": "#5677FC"
+		}
+	}, {
+		"path": "pages/product/productDetail",
+		"style": {
+			"navigationBarBackgroundColor": "#fff",
+			"navigationBarTextStyle": "black",
+			"backgroundColorTop": "#F7F7F7",
+			"backgroundColorBottom": "#F7F7F7",
+			"navigationBarTitleText": "商品详情",
+			"navigationStyle": "custom",
+			"app-plus": {
+				"titleNView": false
+			}
+		}
+	},{
+		"path": "pages/public/login",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "用户登录"
+		}
+	},{
+		"path": "pages/public/register",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "用户注册"
+		}
+	},{
+		"path": "pages/order/create",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "创建订单"
+		}
+	},{
+		"path": "pages/order/detail",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "订单详情"
+		}
+	},{
+		"path": "pages/order/list",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "订单列表"
+		}
+	},{
+		"path": "pages/address/list",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "地址列表"
+		}
+	},{
+		"path": "pages/address/create",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "创建列表"
+		}
+	},{
+		"path": "pages/pay/pay",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "支付"
+		}
+	},{
+		"path": "pages/pay/success",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "支付成功"
+		}
+	},{
+		"path": "pages/user/user",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "我的"
+		}
+	},{
+		"path": "pages/user/userInfo",
+		"style": {
+			"backgroundColorTop": "#5677FC",
+			"navigationBarTitleText": "资料编辑"
+		}
+	}
+
+
+    ],
+	"subPackages": [
+	],
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#5677FC",
+		"navigationBarTitleText": "RockApp",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#fafafa",
+		"backgroundColorTop": "#fafafa",
+		"backgroundColorBottom": "#fafafa"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#5677FC",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/mall/mall",
+				"text": "首页",
+				"iconPath": "static/images/tabbar/home.png",
+				"selectedIconPath": "static/images/tabbar/home_active.png"
+			},
+			{
+				"pagePath": "pages/product/product-cat",
+				"text": "分类",
+				"iconPath": "static/images/tabbar/cat.png",
+				"selectedIconPath": "static/images/tabbar/cat_active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/images/tabbar/cart.png",
+				"selectedIconPath": "static/images/tabbar/cart_active.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/images/tabbar/my.png",
+				"selectedIconPath": "static/images/tabbar/my_active.png"
+			}
+		]
+	}
+}
